@@ -1,0 +1,237 @@
+body {
+  background: #1e1c1e;
+  color: #fff;
+}
+
+:root {
+  --red: #e60e0b;
+}
+
+/* Menu Section */
+
+.navbar-container {
+  margin-left: 110px;
+}
+
+.navbar-container a,
+.navbar-container li {
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  padding-bottom: 0px;
+  transition: 0.5s;
+}
+.navbar-brand:hover {
+  opacity: 0.7;
+}
+
+#navbarNav {
+  margin-left: 50px;
+}
+
+.nav-link {
+  margin: 0px 10px;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--red);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #fff;
+}
+
+.navbar-brand img {
+  width: 100px;
+}
+
+/* End of Menu Section */
+
+/* Banner Section */
+.banner {
+  background-image: url("./components/images/smoke-banner.png");
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-text {
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.banner-text span {
+  font-weight: bold;
+  color: var(--red);
+}
+
+.banner-text h1 {
+  font-size: 49px;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+
+.banner-text p {
+  width: 500px;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+.banner-text a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 20px;
+
+  display: inline-block;
+  padding: 15px 0px;
+  position: relative;
+}
+
+.banner-text a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: var(--red);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.banner-text a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.banner-text img {
+  position: absolute;
+  left: -200px;
+  bottom: -300px;
+  z-index: -10;
+  width: 600px;
+}
+
+.banner-image {
+  overflow-x: hidden;
+}
+
+.banner-image img {
+  width: 900px;
+  position: relative;
+  right: 50px;
+}
+
+/* End of Banner Section */
+
+@media only screen and (max-width: 1400px) {
+  /* Menu Section 1400 */
+  .navbar-container {
+    margin-left: 110px;
+  }
+  /* End of Menu Section 1400 */
+
+  /* Banner Section 1400*/
+
+  .banner-text h1 {
+    font-size: 42px;
+  }
+
+  .banner-image img {
+    width: 800px;
+    position: relative;
+    right: 80px;
+  }
+
+  /* End of Banner Section 1400*/
+}
+
+@media only screen and (max-width: 992px) {
+  /* Menu Section Mobile*/
+  .navbar-container {
+    margin-left: 0px;
+  }
+
+  #navbarNav {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    margin: 0px;
+    right: 20px;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    padding: 0px;
+  }
+
+  .nav-link {
+    padding: 20px 50px;
+  }
+
+  /* End of Menu Section Mobile */
+
+  /* Banner Section mobile*/
+
+  .banner-text {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .banner-text h1 {
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .banner-text p {
+    width: auto;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .banner-text a {
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 50px;
+  }
+
+  /* End of Banner Section mobile*/
+}
