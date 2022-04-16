@@ -1,6 +1,7 @@
 body {
   background: #1e1c1e;
   color: #fff;
+  background-image: url(./components/images/about-dust.png);
 }
 
 :root {
@@ -37,7 +38,7 @@ body {
 .navbar-brand,
 .nav-link {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: bold;
 
   color: #fff;
   text-transform: uppercase;
@@ -83,6 +84,7 @@ body {
   background-image: url("./components/images/smoke-banner.png");
   position: relative;
   overflow: hidden;
+  /* margin-top: 100px; use if fixed-top is on navbar */
 }
 
 .banner-text {
@@ -98,7 +100,7 @@ body {
 
 .banner-text h1 {
   font-size: 49px;
-  line-height: 50px;
+  line-height: 56px;
   letter-spacing: 3px;
 }
 
@@ -147,16 +149,153 @@ body {
 }
 
 .banner-image {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .banner-image img {
   width: 900px;
   position: relative;
-  right: 50px;
+  right: 200px;
 }
 
 /* End of Banner Section */
+
+/* About Section */
+
+.about {
+  margin-top: 100px;
+  position: relative;
+  overflow: hidden;
+  /* background-image: url(./components/images/about-dust.png); */
+}
+
+.about-image img {
+  position: relative;
+  left: 150px;
+  z-index: -10;
+}
+
+.about-text {
+  text-transform: uppercase;
+  position: relative;
+  top: 100px;
+  right: 80px;
+  letter-spacing: 3px;
+  width: 400px;
+}
+
+.about-text h2 {
+  font-size: 49px;
+  line-height: 56px;
+}
+
+.about-text p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.about-text a {
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  transition: 0.5s;
+  font-weight: bold;
+  border-radius: 0px 0px 30px 0px;
+}
+
+.about-text a:hover {
+  background: var(--red);
+  color: #fff;
+}
+
+.about-background {
+  position: absolute;
+  right: -50px;
+  top: -120px;
+  z-index: 10;
+}
+
+.about-background img {
+  width: 700px;
+}
+
+/* End of About Section */
+
+/* We are Section */
+
+.we-are {
+  margin-top: 150px;
+}
+
+.we-are-red {
+  height: 350px;
+  width: 350px;
+}
+
+.we-are-text {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 400px;
+  position: relative;
+  bottom: 280px;
+  left: 90px;
+}
+
+.we-are-text h2 {
+  font-size: 49px;
+  line-height: 56px;
+}
+
+.we-are-text p {
+  margin-top: 20px;
+}
+
+.we-are-images .we-are-1,
+.we-are-2,
+.we-are-3 {
+  border-radius: 10px;
+}
+
+.we-are-images .we-are-3 {
+  position: relative;
+  bottom: 450px;
+  left: 100px;
+  width: 600px;
+  z-index: -10;
+}
+
+.we-are-images .we-are-1 {
+  width: 350px;
+  position: relative;
+  bottom: 750px;
+  right: 100px;
+}
+
+.we-are-images .we-are-2 {
+  width: 300px;
+  position: relative;
+  bottom: 500px;
+  right: 100px;
+}
+
+.we-are-images p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 400px;
+}
+
+.we-are-images {
+  position: relative;
+}
+
+.we-are-images .text {
+  position: absolute;
+  right: 0px;
+  bottom: 970px;
+}
+
+/* Emd pf We are Section */
 
 @media only screen and (max-width: 1400px) {
   /* Menu Section 1400 */
@@ -178,6 +317,44 @@ body {
   }
 
   /* End of Banner Section 1400*/
+
+  /* About Section 1400*/
+
+  .about-text {
+    right: 0px;
+  }
+
+  .about-background {
+    right: -200px;
+  }
+
+  /* End of About Section 1400*/
+
+  /* We are Section 1400*/
+
+  .we-are-text {
+    left: 50px;
+  }
+
+  .we-are-images .we-are-1 {
+    right: 150px;
+  }
+
+  .we-are-images .we-are-2 {
+    position: absolute;
+    right: 15px;
+  }
+
+  .we-are-images p {
+    width: 300px;
+  }
+
+  .we-are-images .text {
+    right: -20px;
+    bottom: 920px;
+  }
+
+  /* Emd pf We are Section 1400 */
 }
 
 @media only screen and (max-width: 992px) {
@@ -234,4 +411,124 @@ body {
   }
 
   /* End of Banner Section mobile*/
+
+  /* About Section Mobile*/
+
+  .about-image img {
+    left: 10px;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .about-text {
+    right: 0px;
+    width: auto;
+  }
+
+  .about-text h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .about-text p {
+    text-align: center;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-background {
+    position: absolute;
+    right: -200px;
+    top: 300px;
+  }
+
+  .about-background img {
+    width: 500px;
+    z-index: -10;
+  }
+
+  /* End of About Section Mobile*/
+
+  /* We are Section Mobile*/
+
+  .we-are {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .we-are-red {
+    height: 350px;
+    width: 100%;
+  }
+
+  .we-are-text {
+    width: 100%;
+    position: relative;
+    bottom: 280px;
+    left: 0px;
+    text-align: center;
+  }
+
+  .we-are-text h2 {
+    font-size: 32px;
+  }
+
+  .we-are-text p {
+    margin-top: 20px;
+  }
+
+  .we-are-images {
+    position: relative;
+  }
+
+  .we-are-images p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .we-are-images .text {
+    position: relative;
+    top: -200px;
+    right: 0px;
+  }
+
+  .we-are-images .we-are-1,
+  .we-are-2,
+  .we-are-3 {
+    border-radius: 10px;
+  }
+
+  .we-are-images .we-are-3 {
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .we-are-images .we-are-1 {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .we-are-images .we-are-2 {
+    width: 90%;
+    bottom: 0px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    right: 0px;
+  }
+
+  /* Emd pf We are Section Mobile*/
 }
