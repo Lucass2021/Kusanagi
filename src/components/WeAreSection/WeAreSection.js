@@ -2,7 +2,7 @@ import React from "react";
 
 function WeAreSection() {
   return (
-    <div className="we-are">
+    <div className="we-are" id="we">
       <img
         className="we-are-red"
         src={require("../images/we-are-red.jpg")}

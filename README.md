@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img src="./git/capa.jpg"/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Summary
 
-## Available Scripts
+- [Description](#📝-Description)
+- [Project](#💻-Project)
+- [Technologies](#🚀-Technologies)
+- [Project Stats](#🎯-Project-Stats)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 📝 Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> This is a project that i've create this inspired by a layout from Behance.net <br>
+> I've decided to do this project to train my skills with the React framework. <br>
+> Original Project in Behance: https://www.behance.net/gallery/131626947/Web-Design-For-MMMORPG?tracking_source=search_projects%7Cwebsite%20game%20landingpage <br>
+> My purpose while developing this is to make a simple and clean landingpage with a nice user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 💻 Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h1 align="center">
+    <img src="./git/projeto1.jpg"/>
+</h1>
+<h1 align="center">
+    <img src="./git/projeto2.jpg"/>
+</h1>
+<h1 align="center">
+    <img src="./git/projeto3.jpg"/>
+</h1>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Technologies
+This project was developed with the following technologies:
+* VS Code;
+* HTML;
+* CSS;
+* Bootstrap;
+* Javascript;
+* React;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🎯 Project Stats
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<strong>This project is under developement.</strong>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :heavy_check_mark: To do list
 
-### Analyzing the Bundle Size
+- This project is under developement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## :handshake: Become a Contributor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Do you have any ideas that you want to implement it? It's simple!
 
-### Advanced Configuration
+1. Fork the project
+2. Modify what you think is necessary
+3. Commit the changes
+4. Create a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Projetos - [Lucass2021](https://github.com/Lucass2021)
 
-### `yarn build` fails to minify
+- Linkedin - [@Lucas Dias da Silva](https://www.linkedin.com/in/lucas-dias-da-silva-118954199/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email - [Lucas Dias](mailto:lucas.allx@hotmail.com")

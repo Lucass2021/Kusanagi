@@ -25,7 +25,7 @@ function HeroSection() {
 
           <div className="col-sm-5 banner-image">
             <img
-              src={require("../images/samurai-banner.png")}
+              src={require("../images/samurai-banner-original.png")}
               alt="Samurai Banner"
             />
           </div>

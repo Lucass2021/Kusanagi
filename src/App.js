@@ -5,6 +5,8 @@ import HeroSection from "./components/HeroSection/HeroSection.js";
 import About from "./components/AboutSection/About";
 import WeAreSection from "./components/WeAreSection/WeAreSection";
 import ServiceSection from "./components/ServiceSection/ServiceSection";
+import PlaySection from "./components/PlaySection/PlaySection";
+import ClanSection from "./components/ClanSection/ClanSection";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <About />
       <WeAreSection />
       <ServiceSection />
+      <PlaySection />
+      <ClanSection />
     </>
   );
 }

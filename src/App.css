@@ -297,6 +297,104 @@ body {
 
 /* Emd pf We are Section */
 
+/* Service Section */
+
+.service {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 350px;
+}
+
+.service h2 {
+  font-size: 49px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.col-sm-3 {
+  margin: 0px 15px;
+}
+
+.col-sm-3 img {
+  border-radius: 10px;
+  width: 300px;
+}
+
+.samurai-position {
+  position: relative;
+  bottom: 90px;
+}
+
+.samurai-position h3 {
+  margin-top: 10px;
+}
+
+/* End of Service Section */
+
+/* Play Section */
+
+.play-section {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  bottom: 350px;
+}
+
+.play-section h2 {
+  font-size: 49px;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+.play-section img {
+  height: 500px;
+  border-radius: 10px;
+}
+
+.play-section .play-text {
+  width: 500px;
+}
+
+.play-section .play-text span {
+  border-bottom: 5px solid #fff;
+}
+
+/* End of Play Section */
+
+/* Clan Section */
+
+.clan {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  /* position: relative;
+  bottom: 350px; */
+}
+
+.clan h2 {
+  font-size: 49px;
+  line-height: 56px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.clan h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.clan img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.clan .col-sm-2 {
+  margin: 0px 20px;
+}
+
+/* End of Clan Section */
+
 @media only screen and (max-width: 1400px) {
   /* Menu Section 1400 */
   .navbar-container {
@@ -355,6 +453,28 @@ body {
   }
 
   /* Emd pf We are Section 1400 */
+
+  /* Service Section 1400*/
+
+  .service h2 {
+    position: relative;
+    left: 20px;
+  }
+
+  .col-sm-3 {
+    margin: 0px 40px;
+  }
+
+  /* End of Service Section 1400*/
+
+  /* Play Section 1400*/
+  .play-section img {
+    height: 500px;
+    position: relative;
+    right: 80px;
+  }
+
+  /* End of Play Section 1400*/
 }
 
 @media only screen and (max-width: 992px) {
@@ -531,4 +651,53 @@ body {
   }
 
   /* Emd pf We are Section Mobile*/
+
+  /* Service Section Mobile*/
+
+  .service {
+    bottom: 0px;
+    margin-top: 100px;
+  }
+
+  .service h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    left: 00px;
+  }
+
+  .col-sm-3 {
+    margin: 30px 0px;
+    text-align: center;
+  }
+
+  .samurai-position {
+    bottom: 0px;
+  }
+
+  .samurai-position h3 {
+    margin-top: 20px;
+  }
+
+  /* End of Service Section Mobile*/
+
+  /* Play Section mobile */
+
+  .play-section {
+    bottom: 0px;
+    text-align: center;
+  }
+
+  .play-section h2 {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+
+  .play-section img {
+    height: auto;
+    width: 90%;
+    position: relative;
+    right: 0px;
+  }
+
+  /* End of Play Section mobile*/
 }
