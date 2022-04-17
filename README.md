@@ -39,7 +39,7 @@
 ---
 
 ## 🚀 Technologies
-This project was developed with the following technologies:
+This project IS BEEN developed with the following technologies:
 * VS Code;
 * HTML;
 * CSS;
